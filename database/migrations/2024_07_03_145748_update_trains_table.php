@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('trains', function (Blueprint $table) {
-            $table->boolean('Treno Veloce');
+            $table->boolean('treno_veloce');
         });
     }
 
@@ -22,7 +22,7 @@ return new class extends Migration
     public function down(): void
     {
         Schema::table('trains', function (Blueprint $table) {
-            $table->dropColumn("Treno Veloce");
+            $table->dropColumn("treno_veloce");
         });
     }
 };
