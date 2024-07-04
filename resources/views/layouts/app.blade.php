@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield("title", "Hello Laravel World")</title>
     @vite('resources/js/app.js')
+    @yield('css')
 </head>
 <body>
 
